@@ -229,21 +229,21 @@ export default function Portfolio() {
               title="E-commerce Material Sanitarios - Clasalut"
               description="Una tienda en línea para productos de material sanitario con integración de pagos."
               tags={["WordPress", "WooCommerce", "PHP", "Stripe", "JavaScript"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/clasalut.png?height=400&width=600"
               demoUrl="https://clasalut.es/"
             />
             <ProjectCard
               title="Gestión de citas pacientes - Clasalut Servicios"
               description="Una sitio web con gestión de citas para pacientes con recordatorios y notificaciones, e integración de API de Google Maps. Instalación y formación para programa de historial clínico."
               tags={["WordPress", "Amelia", "JavaScript", "Google Maps API", "Zoom", "OpenEMR"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/clasalut-servicios.png?height=400&width=600"
               demoUrl="https://clasalutservicios.com"
             />
             <ProjectCard
               title="Medical Vlog - Venta de Proyectos Web Enfocados en Sanidad"
               description="Un blog médico centrado en la venta de proyectos web para el sector sanitario. Incluye artículos sobre desarrollo web, marketing digital y software médico."
               tags={["WordPress", "Theme Framework", "Plugin Framework", "PHP", "JavaScript"]}
-              image="/placeholder.svg?height=400&width=600"
+              image="/medicalvlog.webp?height=400&width=600"
               demoUrl="https://medicalvlog.com"
             />
           </div>
