@@ -1,79 +1,75 @@
-# Creative Portfolio
+# Portfolio Creativo de NeoAAPL
+Un portfolio moderno y responsive creado usando tecnologías actuales y desplegado en Vercel.
 
-A modern and responsive creative portfolio built using [v0.dev](https://v0.dev) by Vercel.
+# Demo en Vivo
+Puedes ver el portfolio funcionando en: https://vercel.com/iandresapis-projects/portfolio-neoaapl
 
-![Creative Portfolio Preview](./preview.png)
+# Características
+· Diseño responsive adaptable a cualquier dispositivo
+· Interfaz moderna con animaciones suaves
+· Sección para mostrar proyectos destacados
+· Sección "Sobre mí"
+· Información de contacto
+· Construido con tecnologías web de última generación
 
-## Live Demo
+# Tecnologías Utilizadas
+· Next.js – Framework React para producción
+· Tailwind CSS – Framework CSS utility-first
+· v0.dev – Generador de componentes UI impulsado por IA
+· Vercel – Plataforma de despliegue
 
-Check out the live demo: [https://v0-creative-portfolio-o7.vercel.app/](https://v0-creative-portfolio-o7.vercel.app/)
+# Cómo Ejecutar el Proyecto Localmente
+Clona este repositorio:
 
-## Features
+bash
+Copiar
+Editar
+git clone https://github.com/iandresapis/portfolio-neoaapl.git
+Entra al directorio del proyecto:
 
-- Responsive design that works on all devices
-- Modern UI with smooth animations
-- Project showcase section
-- About me section
-- Contact information
-- Built with cutting-edge web technologies
+bash
+Copiar
+Editar
+cd portfolio-neoaapl
+Instala las dependencias:
 
-## Technologies Used
+bash
+Copiar
+Editar
+npm install
+Ejecuta el servidor de desarrollo:
 
-- [Next.js](https://nextjs.org/) - The React framework for production
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [v0.dev](https://v0.dev) - AI-powered UI component generator
-- [Vercel](https://vercel.com) - Deployment platform
+bash
+Copiar
+Editar
+npm run dev
+Abre http://localhost:3000 en tu navegador para ver el portfolio.
 
-## Getting Started
+# Personalización
+Para adaptar este portfolio a tu propio contenido:
 
-To run this project locally, follow these steps:
+Modifica los textos e imágenes en los componentes correspondientes.
 
-1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/shinekyaw/Creative-Portfolio.git
-   \`\`\`
+Cambia las imágenes de ejemplo ubicadas en la carpeta public.
 
-2. Navigate to the project directory:
-   \`\`\`bash
-   cd Creative-Portfolio
-   \`\`\`
+Ajusta la paleta de colores en tailwind.config.js.
 
-3. Install dependencies:
-   \`\`\`bash
-   npm install
-   \`\`\`
+Actualiza los metadatos en app/layout.tsx.
 
-4. Run the development server:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
+# Despliegue
+Para desplegar tu propia versión en Vercel:
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
+Haz fork de este repositorio.
 
-## Customization
+Crea un nuevo proyecto en Vercel.
 
-To customize this portfolio for your own use:
+Conecta tu cuenta de GitHub y selecciona el repositorio.
 
-1. Update the content in the appropriate components
-2. Replace placeholder images with your own in the `public` folder
-3. Modify the color scheme in `tailwind.config.js`
-4. Update the metadata in `app/layout.tsx`
+Haz clic en "Deploy".
 
-## Deployment
+Vercel se encargará del despliegue automático y te proporcionará una URL pública.
 
-This project is configured for easy deployment on Vercel. To deploy your own version:
+# Contribuciones
+¡Son bienvenidas! Si tienes sugerencias o mejoras, abre un issue o envía un pull request.
 
-1. Fork this repository
-2. Create a new project on Vercel
-3. Connect your GitHub account and select this repository
-4. Click "Deploy"
-
-Vercel will automatically deploy your portfolio and provide you with a live URL.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is open source and available under the [MIT License](./LICENSE).
+# Licencia
