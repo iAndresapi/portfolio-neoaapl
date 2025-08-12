@@ -6,42 +6,41 @@ Puedes ver el portfolio funcionando en: https://vercel.com/iandresapis-projects/
 
 # Características
 · Diseño responsive adaptable a cualquier dispositivo
+
 · Interfaz moderna con animaciones suaves
+
 · Sección para mostrar proyectos destacados
+
 · Sección "Sobre mí"
+
 · Información de contacto
+
 · Construido con tecnologías web de última generación
+
 
 # Tecnologías Utilizadas
 · Next.js – Framework React para producción
+
 · Tailwind CSS – Framework CSS utility-first
+
 · v0.dev – Generador de componentes UI impulsado por IA
+
 · Vercel – Plataforma de despliegue
+
 
 # Cómo Ejecutar el Proyecto Localmente
 Clona este repositorio:
 
-bash
-Copiar
-Editar
+*bash*
 git clone https://github.com/iandresapis/portfolio-neoaapl.git
 Entra al directorio del proyecto:
 
-bash
-Copiar
-Editar
 cd portfolio-neoaapl
 Instala las dependencias:
 
-bash
-Copiar
-Editar
 npm install
 Ejecuta el servidor de desarrollo:
 
-bash
-Copiar
-Editar
 npm run dev
 Abre http://localhost:3000 en tu navegador para ver el portfolio.
 
