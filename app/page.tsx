@@ -140,9 +140,7 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  Soy un desarrollador web apasionado con experiencia en la creación de aplicaciones frontend modernas y
-                  accesibles. Me especializo en tecnologías como React, Next.js y TypeScript, y disfruto creando
-                  interfaces de usuario que no solo son funcionales, sino también visualmente atractivas.
+                  Soy un desarrollador web enfocado en el frontend, con experiencia en la creación de sitios web corporativos y tiendas online. Utilizo tecnologías como HTML, CSS, JavaScript y WordPress, y actualmente amplío mis conocimientos en frameworks modernos como React. Mi objetivo es crear interfaces funcionales, atractivas y centradas en la experiencia del usuario.”
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
                   Mi trayectoria en tecnología comenzó con una sólida base en desarrollo de software. He trabajado con
