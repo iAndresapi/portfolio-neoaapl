@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowRight, Github, Instagram, Linkedin, Mail } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { ProjectCard } from "@/components/project-card"
@@ -19,6 +19,7 @@ export default function Portfolio() {
       <MouseFollower />
       <ScrollProgress />
       <FloatingNav />
+      {/* klk */}
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -55,7 +56,6 @@ export default function Portfolio() {
                 </Button>
               </Link>
                 <Button
-                variant="outline"
                 className="border-zinc-700 text-green-500 hover:text-green-700 hover:border-zinc-500 bg-transparent"
                 >
                   <Link href="tel:+34635383506" className="flex items-center">
@@ -66,8 +66,6 @@ export default function Portfolio() {
             <div className="flex gap-4 pt-4">
               <Link href="https://github.com/iAndresapi" target="_blank" rel="noopener noreferrer">
                 <Button
-                  variant="ghost"
-                  size="icon"
                   className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
                 >
                   <Github className="h-5 w-5" />
@@ -140,7 +138,7 @@ export default function Portfolio() {
             <div className="space-y-6">
               <GlassmorphicCard>
                 <p className="text-lg text-zinc-300">
-                  Soy un desarrollador web enfocado en el frontend, con experiencia en la creación de sitios web corporativos y tiendas online. Utilizo tecnologías como HTML, CSS, JavaScript y WordPress, y actualmente amplío mis conocimientos en frameworks modernos como React. Mi objetivo es crear interfaces funcionales, atractivas y centradas en la experiencia del usuario.”
+                  Soy un desarrollador web enfocado en el frontend, con experiencia en la creación de sitios web corporativos y tiendas online. Utilizo tecnologías como HTML, CSS, JavaScript y WordPress, y actualmente amplío mis conocimientos en frameworks modernos como React. Mi objetivo es crear interfaces funcionales, atractivas y centradas en la experiencia del usuario.
                 </p>
                 <p className="text-lg text-zinc-300 mt-4">
                   Mi trayectoria en tecnología comenzó con una sólida base en desarrollo de software. He trabajado con
@@ -195,7 +193,7 @@ export default function Portfolio() {
         </div>
 
         <div className="container relative z-10">
-          <SectionHeading title="Mis Habilidades" subtitle="Tecnologías con las que he trabajado" />
+          <SectionHeading title="Mis Habilidades" subtitle="Tecnologías con las que trabajo" />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16">
             <SkillBadge name="VS Code" level={65} title="Intermedio" />
@@ -231,20 +229,20 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
             <ProjectCard
-              title="Clasalut | E-commerce Material Sanitarios"
+              title="E-commerce Material Sanitarios - Clasalut"
               description="Una tienda en línea para productos de material sanitario con integración de pagos."
               tags={["WordPress", "WooCommerce", "PHP", "Stripe", "JavaScript"]}
-              image="/clasalut.png?height=400&width=600"
+              image="/clasalut.png?height=500&width=500"
               demoUrl="https://clasalut.es/"
             />
             <ProjectCard
-              title="Clasalut Servicios | Gestión de citas pacientes"
+              title="Gestión de citas pacientes - Clasalut Servicios"
               description="Una sitio web con gestión de citas para pacientes con recordatorios y notificaciones, e integración de API de Google Maps. Instalación y formación para programa de historial clínico."
               tags={["WordPress", "Amelia", "JavaScript", "Google Maps API", "Zoom", "OpenEMR"]}
               image="/clasalut-servicios.png?height=400&width=600"
               demoUrl="https://clasalutservicios.com"
             />
-           <ProjectCard
+            <ProjectCard
               title="Hola Marketing - Desarrollo y Mantenimiento de Sitios Web Corporativos"
               description="Colaboración en el desarrollo y mantenimiento de sitios web para distintas empresas. Implementación de estrategias básicas de SEO y marketing digital utilizando WordPress y Google Analytics, asegurando coherencia visual y comunicativa junto al equipo de diseño y contenidos."
               tags={["WordPress", "PageSpeed Insight", "HTML", "CSS", "JavaScript", "SEO", "Elementor", "Responsive Design"]}
@@ -307,15 +305,6 @@ export default function Portfolio() {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Github className="h-5 w-5 text-green-400" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium">github.com/iAndresapi</div>
-                  </div>
-                </div>
               </div>
 
               <div className="mt-8 pt-8 border-t border-zinc-800">
@@ -363,16 +352,6 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="https://github.com/iAndresapi/" target="_blank" rel="noopener noreferrer">
-              <Button
-                variant="ghost"
-                size="icon"
-                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
-              >
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-            </Link>
             <Link href="https://www.linkedin.com/in/neoaapl/" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="ghost"
