@@ -216,6 +216,7 @@ export default function Portfolio() {
             <SkillBadge name="NotebookLM" level={75} title="Intermedio" />
             <SkillBadge name="Firebase" level={45} title="Intermedio" />
             <SkillBadge name="Google AI Studio" level={55} title="Intermedio" />
+            <SkillBadge name="TypeScript" level={30} title="Básico" />
           </div>
         </div>
       </section>
