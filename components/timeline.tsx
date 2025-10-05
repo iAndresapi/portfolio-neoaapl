@@ -6,29 +6,22 @@ import { useMobile } from "@/hooks/use-mobile"
 const experiences = [
   {
     title: "Desarrollador Frontend Junior",
-    company: "Clasalut S.L. - medicalvlog.com",
-    period: "2025 - Presente",
-    description:
-      "Centrada en la creación de proyectos digitales para el sector salud. Realicé del diseño limpio y funcional, priorizando la usabilidad, el SEO y la presentación profesional de servicios como desarrollo web, optimización de contenido y asesoramiento técnico para clínicas y profesionales médicos.",
-  },
-  {
-    title: "Desarrollador Frontend Junior",
-    company: "Clasalut S.L. - clasalutservicios.com",
-    period: "2024 - 2025",
+    company: "Clasalut SL - clasalutservicios.com",
+    period: "Abr 2024 - Actualmente",
     description:
       "Desarrollo de una web enfocada en la oferta de servicios médicos privados. Me ocupé de estructurar el sitio para facilitar la reserva de citas, presentar al equipo profesional, integrar la información de contacto y transmitir los valores de la empresa, incluyendo la disponibilidad de urgencias 24 horas.",
   },
   {
     title: "Desarrollador Web",
-    company: "Hola Martech S.L. - holamarketing.online",
-    period: "2025",
+    company: "Hola Martech SL - holamarketing.online",
+    period: "Jun 2025 - Jul 2025",
     description:
       "Prácticas donde establecí una base sólida en desarrollo frontend y en estrategias de posicionamiento SEO, tanto local como general. Participe en la creación y optimización de sitios web",
   },
   {
     title: "Desarrollador y Diseñador Web",
-    company: "Clasalut S.L. - clasalut.es",
-    period: "2023 - 2024",
+    company: "Clasalut SL - clasalut.es",
+    period: "Oct 2024 - Dic 2024",
     description:
       "Desarrollo y gestión de una tienda online de productos sanitarios. Me encargué del diseño web, la optimización SEO, la implementación de contenido informativo, y la coordinación de estrategias digitales y sociales para aumentar la visibilidad y credibilidad de la marca. Esté fue mi primer proyecto profesional, donde aprendí a aplicar mis conocimientos en un entorno real.",
   },
