@@ -281,7 +281,7 @@ export default function Portfolio() {
         <div className="container relative z-10">
           <SectionHeading title="Contacto" subtitle="Trabajemos juntos" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-top mt-16">
             <GlassmorphicCard>
               <h3 className="text-2xl font-bold mb-6">Información de Contacto</h3>
               <div className="space-y-6">
@@ -323,6 +323,23 @@ export default function Portfolio() {
                 <div className="flex items-center gap-2">
                   <div className="w-5 h-3 rounded-full bg-green-500 animate-pulse"></div>
                   <span>Disponible para trabajos freelance y oportunidades a tiempo completo</span>
+                </div>
+              </div>
+            </GlassmorphicCard>
+
+            <GlassmorphicCard>
+              <h3 className="text-2xl font-bold mb-6">Redes Sociales</h3>
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
+                      <Instagram className="h-5 w-5 text-green-400" />
+                    </div>
+                  <div>
+                    <Link href="https://www.instagram.com/neoaapl/" target="_blank" rel="noopener noreferrer">
+                    <div className="text-sm text-zinc-500">Instagram</div>
+                    <div className="font-medium">instagram.com/neoaapl</div>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </GlassmorphicCard>
