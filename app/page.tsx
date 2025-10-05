@@ -244,12 +244,12 @@ export default function Portfolio() {
               image="/clasalut-servicios.png?height=400&width=600"
               demoUrl="https://clasalutservicios.com"
             />
-            <ProjectCard
-              title="MedicalVlog | Venta de Proyectos Web Enfocados en Sanidad"
-              description="Un blog médico centrado en la venta de proyectos web para el sector sanitario. Incluye artículos sobre desarrollo web, marketing digital y software médico."
-              tags={["WordPress", "Theme Framework", "Plugin Framework", "PHP", "JavaScript"]}
-              image="/medicalvlog.webp?height=400&width=600"
-              demoUrl="https://medicalvlog.com"
+           <ProjectCard
+              title="Hola Marketing - Desarrollo y Mantenimiento de Sitios Web Corporativos"
+              description="Colaboración en el desarrollo y mantenimiento de sitios web para distintas empresas. Implementación de estrategias básicas de SEO y marketing digital utilizando WordPress y Google Analytics, asegurando coherencia visual y comunicativa junto al equipo de diseño y contenidos."
+              tags={["WordPress", "PageSpeed Insight", "HTML", "CSS", "JavaScript", "SEO", "Elementor", "Responsive Design"]}
+              image="/holamarketing.webp?height=400&width=600"
+              demoUrl="https://holamarketing.online"
             />
           </div>
         </div>
