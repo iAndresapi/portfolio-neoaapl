@@ -200,16 +200,22 @@ export default function Portfolio() {
           <SectionHeading title="Mis Habilidades" subtitle="Tecnologías con las que trabajo" />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16">
-            <SkillBadge name="HTML/CSS" level={95} />
-            <SkillBadge name="JavaScript" level={90} />
-            <SkillBadge name="Tailwind CSS" level={85} />
-            <SkillBadge name="React" level={80} />
-            <SkillBadge name="Node.js" level={60} />
-            <SkillBadge name="Next.js" level={55} />
-            <SkillBadge name="MySQL" level={45} />
-            <SkillBadge name="Git" level={70} />
-            <SkillBadge name="Bash" level={35} />
-            <SkillBadge name="TypeScript" level={20} />
+            <SkillBadge name="VS Code" level={65} title="Intermedio" />
+            <SkillBadge name="HTML/CSS" level={85} title="Avanzado" />
+            <SkillBadge name="Bootstrap" level={75} title="Avanzado" />
+            <SkillBadge name="Tailwind CSS" level={50} title="Intermedio" />
+            <SkillBadge name="JavaScript" level={50} title="Intermedio" />
+            <SkillBadge name="React" level={35} title="Básico" />
+            <SkillBadge name="GitHub" level={55} title="Intermedio" />
+            <SkillBadge name="Shell" level={25} title="Básico" />
+            <SkillBadge name="XAMPP" level={15} title="Básico" />
+            <SkillBadge name="Figma" level={60} title="Intermedio" />
+            <SkillBadge name="Shopify" level={50} title="Intermedio" />
+            <SkillBadge name="WordPress" level={80} title="Avanzado" />
+            <SkillBadge name="Trello" level={95} title="Experto" />
+            <SkillBadge name="NotebookLM" level={75} title="Intermedio" />
+            <SkillBadge name="Firebase" level={45} title="Intermedio" />
+            <SkillBadge name="Google AI Studio" level={55} title="Intermedio" />
           </div>
         </div>
       </section>
