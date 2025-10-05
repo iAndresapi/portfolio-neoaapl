@@ -197,7 +197,7 @@ export default function Portfolio() {
         </div>
 
         <div className="container relative z-10">
-          <SectionHeading title="Mis Habilidades" subtitle="Tecnologías con las que trabajo" />
+          <SectionHeading title="Mis Habilidades" subtitle="Tecnologías con las que he trabajado" />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16">
             <SkillBadge name="VS Code" level={65} title="Intermedio" />
