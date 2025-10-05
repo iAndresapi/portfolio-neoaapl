@@ -5,7 +5,7 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
-    title: "Desarrollador Frontend Junior",
+    title: "Desarrollador/Diseñador Web",
     company: "Clasalut SL - clasalutservicios.com",
     period: "Abr 2024 - Actualmente",
     description:
@@ -19,7 +19,7 @@ const experiences = [
       "Prácticas donde establecí una base sólida en desarrollo frontend y en estrategias de posicionamiento SEO, tanto local como general. Participe en la creación y optimización de sitios web",
   },
   {
-    title: "Desarrollador y Diseñador Web",
+    title: "Desarrollador/Diseñador Web",
     company: "Clasalut SL - clasalut.es",
     period: "Oct 2024 - Dic 2024",
     description:
