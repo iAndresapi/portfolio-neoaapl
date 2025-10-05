@@ -5,9 +5,10 @@ import { motion } from "framer-motion"
 interface SkillBadgeProps {
   name: string
   level: number
+  title: string
 }
 
-export function SkillBadge({ name, level }: SkillBadgeProps) {
+export function SkillBadge({ name, level, title}: SkillBadgeProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
@@ -33,6 +34,7 @@ export function SkillBadge({ name, level }: SkillBadgeProps) {
           </div>
 
           <div className="mt-2 text-right text-sm text-zinc-400">{level}%</div>
+          <div className="mt-2 text-center text-sm text-zinc-400 padding-1">Nivel: {title}</div>
         </div>
       </div>
     </motion.div>
