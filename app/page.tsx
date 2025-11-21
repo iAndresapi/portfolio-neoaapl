@@ -16,8 +16,8 @@ import { GlassmorphicCard } from "@/components/glassmorphic-card"
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
-      <MouseFollower />
       <ScrollProgress />
+      <FloatingNav />
       {/* klk */}
 
       {/* Hero Section */}
