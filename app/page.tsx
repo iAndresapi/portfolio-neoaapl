@@ -18,7 +18,6 @@ export default function Portfolio() {
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 via-zinc-900 to-black text-white overflow-hidden">
       <MouseFollower />
       <ScrollProgress />
-      <FloatingNav />
       {/* klk */}
 
       {/* Hero Section */}
